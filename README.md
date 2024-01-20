@@ -3,6 +3,7 @@ Using Pandas and Jupyter Notebook, create a report that includes the following d
 
 ## Local Government Area (LGA) Summary
 Include the following:
+
 Total number of unique schools
 
 Total students
@@ -67,4 +68,8 @@ Use the per_school_summary DataFrame from the previous step to create a new Data
 2.  I have received support from support staff at ask BCS staff.
 
 3. Used the drop_duplicates fuction to remove all duplicates. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html
+
+4. Used this functiom to iterate over DataFrame rows. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html#pandas.DataFrame.iterrows
+
+
 
