@@ -71,5 +71,52 @@ Use the per_school_summary DataFrame from the previous step to create a new Data
 
 4. Used this functiom to iterate over DataFrame rows. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html#pandas.DataFrame.iterrows
 
+## Q & A
+
+1.	Summarises the analysis. 
+
+In this analysis I have analysed school’s data in my local government area. This includes following, 
+-	Total number of unique schools
+-	Total students
+-	Total budget
+-	Average maths score
+-	Average reading score
+-	% passing maths (the percentage of students who passed maths)
+-	% passing reading (the percentage of students who passed reading)
+-	% overall passing (the percentage of students who passed maths AND reading)
+
+In addition to that I have created school summary grouped by the school’s name, this includes following,
+-	School name
+-	School type
+-	Total students
+-	Total school budget
+-	Per student budget
+-	Average maths score
+-	Average reading score
+-	% passing maths (the percentage of students who passed maths)
+-	% passing reading (the percentage of students who passed reading)
+-	% overall passing (the percentage of students who passed maths AND reading)
+
+I have created new tables to discover Highest performing schools in the area, lowest performing schools in the area and I have created tables to analyse schools in based different criteria. 
+-	Maths scores by Year (9,10,11,12)
+-	Reading scores by Year (9,10,11,12)
+-	Scores by school spending (<$585", "$585-630", "$630-645", "$645-680)
+-	Scores by school size (Small (<1000)", "Medium (1000-2000)", "Large (2000-5000))
+-	Scores by school type (Government or Independent) 
+
+2.	Draws two correct conclusions or comparisons from the calculations,
+
+•	 first conclusion is students from smaller sized schools have better average results in ‘% overall passing’ when it is compared to medium and large sized schools.
+
+•	When it comes to government and independent schools, independent schools have better results in every aspect compared to government schools.
+
+•	Following five schools are the lowest performing schools by overall performances of students in our local government area which we need to be more concerned about,
+
+-	Hernandez High School
+-	Huang High School
+-	Johnson High School
+-	Wilson High School
+-	Ford High School
+
 
 
